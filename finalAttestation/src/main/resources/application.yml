@@ -1,8 +1,4 @@
-server:
-  port: 8081
 spring:
-  application:
-    name: finalAttestation
   datasource:
     url: jdbc:postgresql://localhost:5432/database
     username: GB
@@ -12,4 +8,3 @@ spring:
     hibernate:
       ddl-auto: create-drop
     show-sql: true
-
