@@ -1,0 +1,14 @@
+services:
+  postgres:
+    container_name: database
+    image: postgres:latest
+    environment:
+      - POSTGRES_DB=database
+      - POSTGRES_PASSWORD=GB2024
+      - POSTGRES_USER=GB
+    volumes:
+      - database:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+volumes:
+  database:
