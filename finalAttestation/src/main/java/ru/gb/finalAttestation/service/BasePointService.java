@@ -1,8 +1,12 @@
 package ru.gb.finalAttestation.service;
 
+import ru.gb.finalAttestation.dto.AreaDto;
+import ru.gb.finalAttestation.dto.BasePointDto;
+
+import java.util.List;
+
 /**
  * This interface defines the main methods of the business logic of the project
- * @author Nizovkin A.V.
  */
 public interface BasePointService {
 
