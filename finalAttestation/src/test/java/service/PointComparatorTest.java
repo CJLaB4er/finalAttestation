@@ -22,6 +22,9 @@ class PointComparatorTest {
 
     private BasePointDto basePointDto;
 
+    /**
+     * <p>setUp.</p>
+     */
     @BeforeEach
     public void setUp() {
         basePoint = new BasePoint(

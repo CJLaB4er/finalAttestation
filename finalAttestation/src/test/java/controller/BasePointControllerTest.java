@@ -39,6 +39,9 @@ class BasePointControllerTest {
     @Autowired
     PointComparator pointComparator;
 
+    /**
+     * <p>setUp.</p>
+     */
     @BeforeEach
     public void setUp() {
         basePointRepository.deleteAll();
