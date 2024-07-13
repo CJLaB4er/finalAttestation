@@ -1,4 +1,9 @@
+server:
+  error:
+    include-message: ALWAYS
 spring:
+  application:
+    name: finalAttestation
   datasource:
     url: jdbc:postgresql://localhost:5432/database
     username: GB

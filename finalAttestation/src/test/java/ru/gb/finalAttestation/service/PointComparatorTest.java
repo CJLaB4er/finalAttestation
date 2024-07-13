@@ -1,4 +1,4 @@
-package service;
+package ru.gb.finalAttestation.service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import ru.gb.finalAttestation.dto.BasePointDto;
 import ru.gb.finalAttestation.model.BasePoint;
-import ru.gb.finalAttestation.service.PointComparator;
 
 import static org.junit.jupiter.api.Assertions.*;
 

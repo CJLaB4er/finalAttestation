@@ -1,11 +1,9 @@
-package mapper;
+package ru.gb.finalAttestation.mapper;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import ru.gb.finalAttestation.dto.BasePointDto;
-import ru.gb.finalAttestation.mapper.BasePointMapper;
-import ru.gb.finalAttestation.mapper.BasePointMapperImpl;
 import ru.gb.finalAttestation.model.BasePoint;
 import ru.gb.finalAttestation.service.PointComparator;
 

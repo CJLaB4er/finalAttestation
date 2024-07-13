@@ -1,4 +1,4 @@
-package controller;
+package ru.gb.finalAttestation.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -15,6 +15,7 @@ import ru.gb.finalAttestation.mapper.BasePointMapper;
 import ru.gb.finalAttestation.model.BasePoint;
 import ru.gb.finalAttestation.repository.BasePointRepository;
 import ru.gb.finalAttestation.service.PointComparator;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,9 +40,6 @@ class BasePointControllerTest {
     @Autowired
     PointComparator pointComparator;
 
-    /**
-     * <p>setUp.</p>
-     */
     @BeforeEach
     public void setUp() {
         basePointRepository.deleteAll();

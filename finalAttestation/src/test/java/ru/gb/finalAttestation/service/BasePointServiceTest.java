@@ -1,4 +1,4 @@
-package service;
+package ru.gb.finalAttestation.service;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -11,9 +11,6 @@ import ru.gb.finalAttestation.mapper.BasePointMapper;
 import ru.gb.finalAttestation.mapper.BasePointMapperImpl;
 import ru.gb.finalAttestation.model.BasePoint;
 import ru.gb.finalAttestation.repository.BasePointRepository;
-import ru.gb.finalAttestation.service.BasePointService;
-import ru.gb.finalAttestation.service.BasePointServiceImpl;
-import ru.gb.finalAttestation.service.PointComparator;
 
 import java.util.ArrayList;
 import java.util.List;
